@@ -1,0 +1,2 @@
+# DividendTokenAndDex
+实现分红型Token，并实现该Token的去中心化交易所，解决了分红型凭据在以太坊的发行和流通的技术问题。
