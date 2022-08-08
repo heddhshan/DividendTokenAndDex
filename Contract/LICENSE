@@ -1,4 +1,4 @@
-Business Source License 1.1
+Business Source License 1.1 (BUSL-1.1)
 
 License text copyright (c) 2017 MariaDB Corporation Ab, All Rights Reserved.
 "Business Source License" is a trademark of MariaDB Corporation Ab.
@@ -10,13 +10,13 @@ Parameters
 Licensor:             heddshan
 
 Licensed Work:        heddshan
-                      The Licensed Work is (c) 2021 heddshan
+                      The Licensed Work is (c) 2022 heddshan DividendTokenAndDex
 
 Additional Use Grant: Any uses listed and defined at
-                      heddshan
+                      heddshan DividendTokenAndDex
 
 Change Date:          The earlier of 2026-08-08 or a date specified at
-                      DividendTokenAndDex
+                      heddshan DividendTokenAndDex
 
 Change License:       GNU General Public License v2.0 or later
 
