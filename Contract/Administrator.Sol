@@ -1,0 +1,31 @@
+// SPDX-License-Identifier: BUSL-1.1
+// author: he.d.d.shan@hotmail.com 
+
+
+pragma solidity ^0.8.0;
+
+
+contract Administrator {
+    address public Admin;                           //管理员，热钱包，执行日常操作
+
+    modifier onlyAdmin {
+        require(msg.sender == Admin || msg.sender == SuperAdmin);
+        _;
+    }
+
+    function setAdmin(address _value) onlyAdmin external {
+        Admin = _value;
+    }
+
+    address public SuperAdmin;                      //超级管理员，冷钱包  万不得已的时候使用   安全性加强
+
+    modifier onlySuperAdmin {
+        require(msg.sender == SuperAdmin, "2");
+        _;                     
+    }
+
+    function setSuperAdmin(address _value) onlySuperAdmin external {
+        SuperAdmin = _value;
+    }
+
+}
