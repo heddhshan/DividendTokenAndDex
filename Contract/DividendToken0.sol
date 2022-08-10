@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: BUSL-1.1
-// author: he.d.d.shan@hotmail.com 
+// author: c7a9d8c6c987784967375ae97a35d30ab617eb48@hotmail.com 
 
 
 // 尽量参照 https://github.com/ethereum/EIPs/issues/1726 
